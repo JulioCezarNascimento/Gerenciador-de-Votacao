@@ -1,5 +1,6 @@
-
-
+.container{
+    display: flex;
+}
 body {
     background-color: #c9e1f2;
     background-image: url('bg.jpg');
