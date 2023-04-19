@@ -9,25 +9,19 @@
     <header>
         <h1>Página de votação</h1>
     </header>
-    <form method="post" action="recebe_votos.php">
-        <fieldset>
+    <div style="text-align:center">
+        <form action="votovalido.html" method="post" action="recebe_votos.php">
             <legend>Opções de voto:</legend>
-            <label for="opcao1">Opção 1:</label>
-            <input type="text" id="opcao1" name="opcao1"><br>
-    
-            <label for="opcao2">Opção 2:</label>
-            <input type="text" id="opcao2" name="opcao2"><br>
-    
-            <label for="opcao3">Opção 3:</label>
-            <input type="text" id="opcao3" name="opcao3"><br>
-    
-            <label for="opcao4">Opção 4:</label>
-            <input type="text" id="opcao4" name="opcao4"><br>
-    
-            <input type="submit" value="Votar">
-
-        </fieldset>
-    </form>
-    
+            <select>
+                <option value="op0">Escolha uma das opções a seguir</option>
+                <option value="op1">Sim</option>
+                <option value="op2">Não</option>
+                <option value="op3">Indeferente</option>
+            </select>    
+            
+            <div><input type="submit" value="Votar"></div>
+  
+        </form>
+    </div>
 </body>
 </html>
